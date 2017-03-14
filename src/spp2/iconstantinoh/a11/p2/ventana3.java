@@ -10,7 +10,7 @@ import java.awt.*;
  * @author ivana
  */
 public class ventana3 extends Frame  {
-    //Atributos: 3 botones.
+    //Atributos: 9 botones.
     private final Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9;
     
     //Constructor
@@ -44,7 +44,7 @@ public class ventana3 extends Frame  {
         
          btn9= new Button ("boton 9");
         add (btn9);
-        setSize(800,600);
+        setSize(500,500);
         setVisible(true);
     
     }
